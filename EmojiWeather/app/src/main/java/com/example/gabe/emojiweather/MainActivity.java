@@ -210,15 +210,15 @@ public class MainActivity extends AppCompatActivity
                     }
                     else if(tempValue >= 32 && tempValue < 65)
                     {
-                        emojiText.setText("\uD83D\uDE2C");
+                        emojiText.setText("\uD83D\uDE28");
                     }
                     else if(tempValue < 32)
                     {
-                        emojiText.setText("☃");
+                        emojiText.setText("\uD83D\uDE30");
                     }
                     else if (parsedData[1].equals("666"))
                     {
-                        emojiText.setText("☢" + tempValue + "☢");
+                        emojiText.setText("Error!");
                     }
                     else
                     {
