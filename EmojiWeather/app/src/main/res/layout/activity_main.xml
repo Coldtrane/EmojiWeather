@@ -19,7 +19,7 @@
         android:layout_marginTop="6dp"
         android:text="       "
         android:textColor="@android:color/black"
-        android:textSize="96sp"
+        android:textSize="82sp"
         tools:ignore="HardcodedText"
         tools:textAlignment="center" />
 
@@ -47,7 +47,7 @@
         android:text="      "
         android:textAlignment="center"
         android:textColor="@android:color/darker_gray"
-        android:textSize="92sp"
+        android:textSize="82sp"
         tools:ignore="HardcodedText" />
 
     <TextView
