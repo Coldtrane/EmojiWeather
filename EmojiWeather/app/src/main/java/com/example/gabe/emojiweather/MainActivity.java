@@ -1,5 +1,7 @@
 package com.example.gabe.emojiweather;
 
+import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,6 +16,7 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.widget.EditText;
 import android.widget.Toast;
+import android.R.color;
 
 /**
  * Main class file for the project. Runs the main activity of the application in the foreground.
@@ -261,6 +264,7 @@ public class MainActivity extends AppCompatActivity
                     //Runs traffic parser from class file, returns data and prints it to the text view
                     TrafficParser parserTraffic = new TrafficParser();
                     String parsedData = parserTraffic.getTraffic(resultString);
+                    //trafficText.setBackgroundColor(getResources().getColor(color.holo_blue_dark));
                     trafficText.setText(parsedData);
                 }
             }
